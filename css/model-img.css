@@ -1,0 +1,20 @@
+
+  .model-img {
+    width: 1500px;
+	  height:auto;
+    justify-content: center;
+    margin-left: 10px;
+   margin-bottom: 100px;
+	  margin-top: 120px;
+  }
+ .model-img img {
+    width: 250px;
+    height: auto;
+    transition: transform 0.7s ease; 
+	 margin-left: 40px;
+	 margin-top: 30px;
+  }
+ .model-img img:hover {
+    transform: scale(1.5); 
+    cursor: pointer; 
+  }
